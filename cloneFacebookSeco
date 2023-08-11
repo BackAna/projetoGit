@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Clone do Facebook</title>
+    <link rel="stylesheet" href="style.css">
+
+    
+
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <h1 class="logo">Facebook</h1>
+            <form class="search-form">
+                <input type="text" placeholder="Pesquisar">
+                <button type="submit">Buscar</button>
+            </form>
+            <nav class="nav-links">
+                <a href="#">Página Inicial</a>
+                <a href="#">Amigos</a>
+                <a href="#">Mensagens</a>
+                <a href="#">Notificações</a>
+            </nav>
+        </div>
+    </header>
+    <section class="profile-section">
+        <div class="profile-container">
+            <img src="profile.jpg" alt="Foto de perfil" class="profile-picture">
+            <h2 class="profile-name">Nome Sobrenome</h2>
+            <p class="profile-info">Bio do usuário</p>
+            <ul class="profile-stats">
+                <li>
+                    <span class="stat-value">500</span>
+                    <span class="stat-label">Amigos</span>
+                </li>
+                <li>
+                    <span class="stat-value">1000</span>
+                    <span class="stat-label">Seguidores</span>
+                </li>
+                <li>
+                    <span class="stat-value">300</span>
+                    <span class="stat-label">Posts</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="feed-section">
+        <div class="feed-container">
+            <div class="post">
+                <div class="post-header">
+                    <img src="post-author.jpg" alt="Foto do autor do post" class="post-author-picture">
+                    <h3 class="post-author-name">Nome Sobrenome</h3>
+                </div>
+                <p class="post-content">Conteúdo do post</p>
+                <img src="post-image.jpg" alt="Imagem do post" class="post-image">
+                <div class="post-footer">
+                    <a href="#">Curtir</a>
+                    <a href="#">Comentar</a>
+                    <a href="#">Compartilhar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <p>© 2023 Facebook. Todos os direitos reservados.</p>
+            <nav class="footer-nav-links">
+                <a href="#">Sobre</a>
+                <a href="#">Ajuda</a>
+                <a href="#">Termos</a>
+                <a href="#">Política de Privacidade</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+
+</html>
