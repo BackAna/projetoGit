@@ -4,9 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Clone do Facebook</title>
-    <link rel="stylesheet" href="style.css">
-
-    
+    <link rel="stylesheet" type="text/css" href="estiloCloneFacebook.css">
 
 </head>
 
